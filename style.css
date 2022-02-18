@@ -176,8 +176,16 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
-
-  /* background-size: cover; */
+  /* background-size: 100vw; */
+  /* background-size: cover;
+ */
+}
+@media screen and (max-width: 900px) {
+  .home {
+    background: url("images/banner-1.jpg") no-repeat center;
+    /* background-size: 100vw; */
+    background-size: cover;
+  }
 }
 
 .home .max-width {
