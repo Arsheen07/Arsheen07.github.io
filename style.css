@@ -176,8 +176,10 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
-  background-size: 100vw 100vh;
+
+  /* background-size: cover; */
 }
+
 .home .max-width {
   width: 100%;
   display: flex;
